@@ -4,6 +4,7 @@ import HomePage from './components/HomePage'
 import Navbar from './components/Navbar'
 import bgImage from './assets/bg-image.jpg'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -29,6 +30,10 @@ function App() {
         {/* Projects */}
 
         <Projects />
+
+        {/* Skills */}
+
+        <Skills />
       </div>
     </>
   )
