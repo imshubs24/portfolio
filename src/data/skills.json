@@ -1,0 +1,12 @@
+[
+    {"name": "HTML & CSS", "percentage": 75},
+    {"name": "JavaScript", "percentage": 55},
+    {"name": "Java", "percentage": 55},
+    {"name": "React", "percentage": 60},
+    {"name": "NodeJs", "percentage": 60},
+    {"name": "MongoDB", "percentage": 55},
+    {"name": "Tailwind CSS", "percentage": 65},
+    {"name": "Bootstrap", "percentage": 45},
+    {"name": "Git", "percentage": 60},
+    {"name": "Python", "percentage": 20}
+  ]

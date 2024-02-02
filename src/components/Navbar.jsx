@@ -11,7 +11,7 @@ const Navbar = () => {
                     <ul className='flex items-center justify-center h-full font-medium max-md:hidden text-xl md:text-base'>
 
                         <li className='lg:mx-7 max-md:ml-7 sm:mx-4 max-md:mx-4 cursor-pointer relative group'>
-                            <a href="#" className='relative md:px-1' onClick={() => handleClick}>Home
+                            <a href="#" className='relative md:px-1'>Home
                                 <span className={`absolute bg-white w-0 left-0 -bottom-3 h-1 group-hover:w-full transition-all duration-500 ease `}></span>
                             </a>
                         </li>

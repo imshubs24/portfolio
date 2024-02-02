@@ -29,7 +29,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div id='homepage' className='relative h-dvh flex justify-center text-white flex-col '>
+      <div id='homepage' className='relative h-dvh flex justify-center text-white flex-col'>
         <h3 className='font-mono text-4xl lg:mx-40 sm:mx-5 max-sm:mx-2 md:mx-20'>I'm a</h3>
         <h1 className='lg:mx-40 py-6 lg:text-3xl xl:text-4xl 2xl:text-5xl sm:mx-5 max-sm:mx-2 md:mx-20' style={{ fontSize: '70px', lineHeight: '1.2' }}> <span ref={text}></span></h1>
         <h1 className='lg:mx-40 pb-6 lg:text-3xl xl:text-4xl 2xl:text-5xl sm:mx-5 max-sm:mx-2 md:mx-20' style={{ fontSize: '60px', lineHeight: '1.2' }}>Developer</h1>
