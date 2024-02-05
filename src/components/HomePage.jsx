@@ -24,6 +24,7 @@ const HomePage = () => {
   return (
     <>
       <div id='homepage' className='relative h-dvh flex justify-center text-white flex-col'>
+      <div className='z-50 fixed transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-28 text-red-500 select-none'><i className="fa-solid fa-triangle-exclamation"></i><span> Under Construction</span></div>
         <h3 className='font-mono text-4xl lg:mx-40 sm:mx-5 max-sm:mx-2 md:mx-20'>I'm a</h3>
         <h1 className='lg:mx-40 py-6 lg:text-3xl xl:text-4xl 2xl:text-5xl sm:mx-5 max-sm:mx-2 md:mx-20' style={{ fontSize: '70px', lineHeight: '1.2' }}> <span ref={text}></span></h1>
         <h1 className='lg:mx-40 pb-6 lg:text-3xl xl:text-4xl 2xl:text-5xl sm:mx-5 max-sm:mx-2 md:mx-20' style={{ fontSize: '60px', lineHeight: '1.2' }}>Developer</h1>
