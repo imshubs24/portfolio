@@ -31,7 +31,7 @@ const HomePage = () => {
           Hi, I'm Shubham, a full-stack developer weaving intricate solutions with a knack for Java coding.
         </p>
       </div>
-      <div id='homepage-down-arrow' className="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-white">
+      <div id='homepage-down-arrow' className="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-white max-md:hidden">
         <Link to="about" duration={500} smooth={true} className='p-2 flex items-center justify-items-center cursor-pointer text-white transition-all easeduration-200 hover:scale-150'>
           <i className="fa-solid fa-angle-down"></i>
         </Link>
