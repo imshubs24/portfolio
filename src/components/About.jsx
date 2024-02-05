@@ -11,13 +11,12 @@ const About = () => {
                             <h1 className='self-start mb-4 text-2xl underline underline-offset-8'>Personal Info</h1>
                             <h2 className='self-start'>Name: <span>Shubham Lokhande</span></h2>
                             <h2 className='self-start'>Address: <span>Pune, MH, India</span></h2>
-                            <h2 className='self-start'>Contact No.: <span className='bg-white'> +91 9921052112 </span></h2>
                             <h2 className='self-start'>Email: <span>slokhande310@gmail.com</span></h2>
                             <h2 className='self-start text-xl'>
-                                <a href="" target="_blank" rel="noopener noreferrer" className='cursor-pointer hover:text-slate-400 duration-200 mr-2'>
+                                <a href="https://bit.ly/48XWihC" target="_blank" rel="noopener noreferrer" className='cursor-pointer hover:text-slate-400 duration-200 mr-2'>
                                     <i className="fa-brands fa-github"></i>
                                 </a>
-                                <a href="" target="_blank" rel="noopener noreferrer" className='cursor-pointer hover:text-slate-400 duration-200 ml-2'>
+                                <a href="https://bit.ly/491pJ2q" target="_blank" rel="noopener noreferrer" className='cursor-pointer hover:text-slate-400 duration-200 ml-2'>
                                     <i className="fa-brands fa-linkedin-in"></i>
                                 </a>
                             </h2>

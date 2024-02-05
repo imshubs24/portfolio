@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import { Link } from 'react-scroll'
 
 const HomePage = () => {
 
@@ -20,13 +21,6 @@ const HomePage = () => {
     };
   }, []);
 
-  const scrollToAboutComponent = () => {
-    const nextComponent = document.getElementById('about');
-    if (nextComponent) {
-      nextComponent.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-
   return (
     <>
       <div id='homepage' className='relative h-dvh flex justify-center text-white flex-col'>
@@ -37,10 +31,10 @@ const HomePage = () => {
           Hi, I'm Shubham, a full-stack developer weaving intricate solutions with a knack for Java coding.
         </p>
       </div>
-      <div className="next-page-arrow absolute bottom-12 left-1/2 transform -translate-x-1/2 rounded-full text-white border-2  p-4 flex items-center justify-center cursor-pointer
-       hover:bg-white hover:text-black transition-all ease-linear duration-200"
-        onClick={scrollToAboutComponent}>
-        <i className="fa-solid fa-angle-down"></i>
+      <div id='homepage-down-arrow' className="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-white">
+        <Link to="about" duration={500} smooth={true} className='p-2 flex items-center justify-items-center cursor-pointer text-white transition-all easeduration-200 hover:scale-150'>
+          <i className="fa-solid fa-angle-down"></i>
+        </Link>
       </div>
     </>
   );
