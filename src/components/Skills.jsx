@@ -28,7 +28,7 @@ const Skills = () => {
             clearInterval(interval);
           }
         }, 15);
-      }, 500); // 2 seconds delay
+      }, 500); // .5 seconds delay
     }
   };
   
