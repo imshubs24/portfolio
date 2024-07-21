@@ -2,7 +2,7 @@ import React from 'react';
 import sample from '../assets/sample.jpg';
 
 const projectData = [
-  { id: 'project1', url: 'https://weewoo.netlify.app/', name: 'WeeWoo Food App', imgSrc: sample, details: `Engineered "WeeWoo," a Food App using the MERN stack. Prioritized Backend with simple design` },
+  { id: 'project1', url: 'https://weewoo-rebrand.netlify.app/', name: 'WeeWoo Food App', imgSrc: sample, details: `Engineered "WeeWoo," a Food App using the MERN stack. Prioritized Backend with simple design` },
   { id: 'project2', url: 'https://github.com/slokhande310/samachar-news', name: 'Samachar News', imgSrc: sample, details: `A fully responsive design, Integrated wtih Free News API to dynamically fetch and display real-time news,` },
   { id: 'project3', url: 'https://github.com/slokhande310/TaskManagementBackend', name: 'Task Management API', imgSrc: sample, details: `Built with Node.js, it features user authentication, allowing sign-up and log-in, and supports CRUD operations` },
   { id: 'project4', url: 'https://quiz-app-slokhande.netlify.app/', name: 'Quiz App', imgSrc: sample, details: `Beginner Friendly Quiz App using HTML, CSS and Vanilla JavaScript` },

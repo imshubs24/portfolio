@@ -8,7 +8,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const typed = new Typed(text.current, {
-      strings: ['Full Stack', 'Java'],
+      strings: ['Full Stack', 'MERN Stack'],
       typeSpeed: 100,
       backSpeed: 80,
       backDelay: 1500,
@@ -29,8 +29,9 @@ const HomePage = () => {
         <h1 className='lg:mx-40 py-6 lg:text-3xl xl:text-4xl 2xl:text-5xl sm:mx-5 max-sm:mx-2 md:mx-20' style={{ fontSize: '70px', lineHeight: '1.2' }}> <span ref={text}></span></h1>
         <h1 className='lg:mx-40 pb-6 lg:text-3xl xl:text-4xl 2xl:text-5xl sm:mx-5 max-sm:mx-2 md:mx-20' style={{ fontSize: '60px', lineHeight: '1.2' }}>Developer</h1>
         <p className='xl:w-2/5 lg:w-3/5 lg:text-lg lg:mx-40 md:w-10/12 md:text-xl sm:w-10/12 sm:mx-5 max-sm:mx-2 md:mx-20'>
-          Hi, I'm Shubham, a full-stack developer weaving intricate solutions with a knack for Java coding.
+          Hi, I'm Shubham, a full-stack developer dedicated to transforming imagination into interactive digital experiences.
         </p>
+        <a target='_blank' href='https://drive.google.com/uc?export=download&id=1BNL4H9WzkK-sN7WGa63acQzpB2sYpnH5' className='border border-white self-start lg:mx-40 sm:mx-5 max-sm:mx-2 md:mx-20 text-[1.1rem] p-2 mt-5 bg-white outline-none text-black font-semibold rounded-lg hover:bg-transparent hover:text-white duration-150 ease-linear'>Download Resume</a>
       </div>
       <div id='homepage-down-arrow' className="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-white">
         <Link to="about" duration={500} smooth={true} className='p-2 flex items-center justify-items-center cursor-pointer text-white transition-all easeduration-200 hover:scale-150 animate-bounce'>

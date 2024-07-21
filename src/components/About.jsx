@@ -11,7 +11,7 @@ const About = () => {
                             <h1 className='self-start mb-4 text-2xl underline underline-offset-8'>Personal Info</h1>
                             <h2 className='self-start'>Name: <span>Shubham Lokhande</span></h2>
                             <h2 className='self-start'>Address: <span>Pune, MH, India</span></h2>
-                            <h2 className='self-start'>Email: <span>slokhande310@gmail.com</span></h2>
+                            <h2 className='self-start'>Email: <span>imshubs24@gmail.com</span></h2>
                             <h2 className='self-start text-xl'>
                                 <a href="https://bit.ly/48XWihC" target="_blank" rel="noopener noreferrer" className='cursor-pointer hover:text-slate-400 duration-200 mr-2'>
                                     <i className="fa-brands fa-github"></i>
@@ -27,7 +27,7 @@ const About = () => {
 
                     <div id='about-info-box' className="w-1/2 p-8 max-md:p-3 flex max-md:w-full max-md:items-center">
                         <div id="info-text" className='xl:w-1/2 max-xl:w-full h-full tracking-wider'>
-                            Hi there!👋🏻 I'm Shubham, I'm a <span className='font-bold underline underline-offset-4'>Web developer</span> and <span className='font-bold underline underline-offset-4'>Java developer</span>.<br></br> Through personal projects, I've delved into crafting web experiences with passion and dedication.<br></br> Embracing the learning curve in Java. Diving deep into DSA puzzles, paving the way for a future of innovative coding endeavors.<br></br> Eager to bring a touch of creativity to collaborative projects. Let's code with heart!❤️
+                            Hi there!👋🏻 I'm Shubham, I'm a <span className='font-bold underline underline-offset-4'>Full Stack Web developer</span> in MERN technologies.<br></br> Through personal projects, I've delved into crafting web experiences with passion and dedication.<br></br> With over two years of hands-on experience, I'm passionate about turning ideas into functional, user-friendly web solutions.<br></br> Let's connect and bring your next project to life!❤️
                         </div>
                     </div>
                 </div>
