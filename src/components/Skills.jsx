@@ -35,7 +35,7 @@ const Skills = () => {
 
   return (
     <InView as="div" onChange={handleInView} ref={skillsRef} triggerOnce>
-      <div id='skills' className='h-dvh max-xl:h-auto bg-[#030610] w-full relative text-white'>
+      <div id='skills' className='min-h-dvh h-auto max-xl:h-auto bg-[#030610] w-full relative text-white'>
         <div id="skills-section" className='flex flex-col h-full gap-y-12 items-center select-none w-full max-md:gap-y-6'>
           <h3 className='text-5xl mt-36 mb-10'>Skills</h3>
           <div id="skills-row" className='grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-y-5 md:w-5/6 p-14 max-md:p-4 sm:w-full xl:w-[80%] place-items-center'>

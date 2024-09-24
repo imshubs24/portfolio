@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     <>
-      <div id="contact" className='h-dvh max-md:h-dvh bg-[#030610] w-full relative text-white'>
+      <div id="contact" className='min-h-dvh h-auto max-md:h-dvh bg-[#030610] w-full relative text-white'>
         <div id="contact-section" className='flex flex-col h-full items-center select-none w-full gap-y-12 max-md:gap-y-6 max-md:pb-7'>
           <h3 className='text-5xl mt-36 mb-10 max-md:mb-20 max-md:mt-28'>Contact</h3>
           <form ref={form} onSubmit={handleSubmit} className='flex flex-col h-1/2 xl:w-2/5 max-lg: w-[60%] max-md:w-[90%] justify-center items-center' >
