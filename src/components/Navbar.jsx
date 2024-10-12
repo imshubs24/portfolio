@@ -23,7 +23,7 @@ const Navbar = () => {
                 <Link to="homepage" smooth={true} duration={500}>Shubham<span className=''>.</span> </Link>
             </div>
             <div className='flex items-center'>
-                <ul className={`flex md:items-center md:justify-center md:h-full lg:text-xl md:text-base ${dropdown ? 'navbar-tablet-css' : 'max-md:hidden'} `}>
+                <ul className={`flex md:items-center md:justify-center md:h-full lg:text-xl md:text-base ${dropdown ? 'navbar-tablet-css' : 'max-md:max-h-0 max-md:opacity-0 max-md:w-0'} `}>
                     {navItems.map(item => (
                         <li key={item.id} className='lg:mx-7 md:mx-4 cursor-pointer relative group max-md:w-1/2 max-md:text-center max-md:border max-md:border-black  max-md:text-black max-md:py-2 max-md:bg-white'>
                             <Link to={item.id} smooth={true} duration={500} className='relative md:px-1 w-full h-full block' onClick={() => setDropdown(false)}>
