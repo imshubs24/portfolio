@@ -5,3 +5,7 @@
 .contact-input {
     @apply flex w-full py-1 px-2 rounded-md placeholder:italic placeholder:text-slate-400 bg-[#030610] border focus:outline-none focus:border-white focus:ring-white focus:ring-1
 }
+
+.navbar-tablet-css {
+    @apply max-md:h-auto max-md:w-full max-md:flex-col max-md:items-end max-md:absolute max-md:right-0 max-md:text-xl max-md:top-20
+}
